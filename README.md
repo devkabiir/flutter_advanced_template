@@ -11,7 +11,7 @@ An opinionated flutter template for scaffolding apps
 
 ## Usage
 
-- 🍴 Fork this report
+- 🍴 Fork this repo
 - Clone your forked version  
   `git clone https://github.com/<you>/flutter_advanced_template.git`
 
