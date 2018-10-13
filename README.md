@@ -52,9 +52,4 @@ An opinionated flutter template for scaffolding apps
 
 ## License
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-Please see the LICENSE file in this repository for the full text
+Code and documentation Copyright (c) 2018 Dinesh Ahuja (devkabiir) <dev@kabiir.me>. Code released under the MIT License.
