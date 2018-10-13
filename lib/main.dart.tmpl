@@ -20,7 +20,14 @@ void main() {
   enableFlutterDriverExtension();
 
 {{/withDriverTest}}
-  runApp({{pluginDartClass}}App());
+  runApp(
+  {{^withPluginHook}}
+      {{pluginDartClass}}App(),
+  {{/withPluginHook}}
+  {{#withPluginHook}}
+      MyApp(),
+  {{/withPluginHook}}
+  );
 }
 
 {{^withPluginHook}}
