@@ -11,17 +11,17 @@ An opinionated flutter template for scaffolding apps
 
 ## Usage
 
-- 🍴 Fork this repo
+- :fork_and_knife: Fork this repo
 - Clone your forked version  
   `git clone https://github.com/<you>/flutter_advanced_template.git`
 
-- ➕ Add this repo as a remote  
+- :heavy_plus_sign: Add this repo as a remote  
   `git remote add upstream https://github.com/devkabiir/flutter_advanced_template.git`
 
-- ⏫ Make sure you have recent changes  
+- :arrow_double_up: Make sure you have recent changes  
   `git fetch upstream`
 
-- 💥 Make your changes/fixes/additions (e.g. update license/author)  
+- :sparkles: Make your changes/fixes/additions (e.g. update license/author)  
 - Rebase your changes on top of upstream/master  
   `git rebase upstream/master`
 
@@ -29,7 +29,7 @@ An opinionated flutter template for scaffolding apps
 
 ## Git
 
-- ✅ Sign all commits. [Learn more](https://help.github.com/articles/signing-commits/)
+- :white_check_mark: Sign all commits. [Learn more](https://help.github.com/articles/signing-commits/)
 - Use [commitizen](http://commitizen.github.io/cz-cli/) with [emoji](https://github.com/ngryman/cz-emoji) adapter
 - Check existing commits to get an idea
 - Run all pre-commit commands (e.g. `dartfmt`, `testing commands`, `dartanalyzer`)
