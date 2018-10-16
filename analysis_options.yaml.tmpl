@@ -1,7 +1,7 @@
 analyzer:
 
   language:
-    # requried for flutter 
+    # requried for flutter
     enableSuperMixins: true
 
   strong-mode:
@@ -13,12 +13,6 @@ analyzer:
 
   # Change lint report level (ignore, warning, error)
   errors:
-    uri_has_not_been_generated: ignore
-    unused_element: error
-    unused_import: error
-    unused_local_variable: error
-    dead_code: error
-    todo: info
     always_declare_return_types: error
     always_put_control_body_on_new_line: error
     always_put_required_named_parameters_first: error
@@ -26,6 +20,7 @@ analyzer:
     always_specify_types: error
     annotate_overrides: error
     avoid_positional_boolean_parameters: error
+    dead_code: error
     parameter_assignments: error
     prefer_final_fields: error
     prefer_final_locals: error
@@ -36,9 +31,14 @@ analyzer:
     sort_constructors_first: error
     sort_unnamed_constructors_first: error
     super_goes_last: error
+    todo: info
     type_annotate_public_apis: error
     type_init_formals: error
     unnecessary_this: error
+    unused_element: error
+    unused_import: error
+    unused_local_variable: error
+    uri_has_not_been_generated: ignore
     use_string_buffers: warning
     use_to_and_as_if_applicable: warning
     void_checks: error
