@@ -1,0 +1,388 @@
+{
+    "linter_rules": [
+        {
+            "name": "always_declare_return_types"
+        },
+        {
+            "name": "always_put_control_body_on_new_line"
+        },
+        {
+            "name": "always_put_required_named_parameters_first"
+        },
+        {
+            "name": "always_require_non_null_named_parameters"
+        },
+        {
+            "name": "always_specify_types"
+        },
+        {
+            "name": "annotate_overrides"
+        },
+        {
+            "name": "avoid_annotating_with_dynamic"
+        },
+        {
+            "name": "avoid_as"
+        },
+        {
+            "name": "avoid_bool_literals_in_conditional_expressions"
+        },
+        {
+            "name": "avoid_catches_without_on_clauses"
+        },
+        {
+            "name": "avoid_catching_errors"
+        },
+        {
+            "name": "avoid_classes_with_only_static_members"
+        },
+        {
+            "name": "avoid_double_and_int_checks"
+        },
+        {
+            "name": "avoid_empty_else"
+        },
+        {
+            "name": "avoid_field_initializers_in_const_classes"
+        },
+        {
+            "name": "avoid_function_literals_in_foreach_calls"
+        },
+        {
+            "name": "avoid_implementing_value_types"
+        },
+        {
+            "name": "avoid_init_to_null"
+        },
+        {
+            "name": "avoid_js_rounded_ints"
+        },
+        {
+            "name": "avoid_null_checks_in_equality_operators"
+        },
+        {
+            "name": "avoid_positional_boolean_parameters"
+        },
+        {
+            "name": "avoid_private_typedef_functions"
+        },
+        {
+            "name": "avoid_relative_lib_imports"
+        },
+        {
+            "name": "avoid_renaming_method_parameters"
+        },
+        {
+            "name": "avoid_return_types_on_setters"
+        },
+        {
+            "name": "avoid_returning_null"
+        },
+        {
+            "name": "avoid_returning_this"
+        },
+        {
+            "name": "avoid_setters_without_getters"
+        },
+        {
+            "name": "avoid_single_cascade_in_expression_statements"
+        },
+        {
+            "name": "avoid_slow_async_io"
+        },
+        {
+            "name": "avoid_types_as_parameter_names"
+        },
+        {
+            "name": "avoid_types_on_closure_parameters"
+        },
+        {
+            "name": "avoid_unused_constructor_parameters"
+        },
+        {
+            "name": "avoid_void_async"
+        },
+        {
+            "name": "await_only_futures"
+        },
+        {
+            "name": "camel_case_types"
+        },
+        {
+            "name": "cancel_subscriptions"
+        },
+        {
+            "name": "cascade_invocations"
+        },
+        {
+            "name": "close_sinks"
+        },
+        {
+            "name": "comment_references"
+        },
+        {
+            "name": "constant_identifier_names"
+        },
+        {
+            "name": "control_flow_in_finally"
+        },
+        {
+            "name": "curly_braces_in_flow_control_structures"
+        },
+        {
+            "name": "directives_ordering"
+        },
+        {
+            "name": "empty_catches"
+        },
+        {
+            "name": "empty_constructor_bodies"
+        },
+        {
+            "name": "empty_statements"
+        },
+        {
+            "name": "file_names"
+        },
+        {
+            "name": "flutter_style_todos"
+        },
+        {
+            "name": "hash_and_equals"
+        },
+        {
+            "name": "implementation_imports"
+        },
+        {
+            "name": "invariant_booleans"
+        },
+        {
+            "name": "iterable_contains_unrelated_type"
+        },
+        {
+            "name": "join_return_with_assignment"
+        },
+        {
+            "name": "library_names"
+        },
+        {
+            "name": "library_prefixes"
+        },
+        {
+            "name": "lines_longer_than_80_chars"
+        },
+        {
+            "name": "list_remove_unrelated_type"
+        },
+        {
+            "name": "literal_only_boolean_expressions"
+        },
+        {
+            "name": "no_adjacent_strings_in_list"
+        },
+        {
+            "name": "no_duplicate_case_values"
+        },
+        {
+            "name": "non_constant_identifier_names"
+        },
+        {
+            "name": "null_closures"
+        },
+        {
+            "name": "omit_local_variable_types"
+        },
+        {
+            "name": "one_member_abstracts"
+        },
+        {
+            "name": "only_throw_errors"
+        },
+        {
+            "name": "overridden_fields"
+        },
+        {
+            "name": "package_api_docs"
+        },
+        {
+            "name": "package_names"
+        },
+        {
+            "name": "package_prefixed_library_names"
+        },
+        {
+            "name": "parameter_assignments"
+        },
+        {
+            "name": "prefer_adjacent_string_concatenation"
+        },
+        {
+            "name": "prefer_asserts_in_initializer_lists"
+        },
+        {
+            "name": "prefer_bool_in_asserts"
+        },
+        {
+            "name": "prefer_collection_literals"
+        },
+        {
+            "name": "prefer_conditional_assignment"
+        },
+        {
+            "name": "prefer_const_constructors"
+        },
+        {
+            "name": "prefer_const_constructors_in_immutables"
+        },
+        {
+            "name": "prefer_const_declarations"
+        },
+        {
+            "name": "prefer_const_literals_to_create_immutables"
+        },
+        {
+            "name": "prefer_constructors_over_static_methods"
+        },
+        {
+            "name": "prefer_contains"
+        },
+        {
+            "name": "prefer_equal_for_default_values"
+        },
+        {
+            "name": "prefer_expression_function_bodies"
+        },
+        {
+            "name": "prefer_final_fields"
+        },
+        {
+            "name": "prefer_final_locals"
+        },
+        {
+            "name": "prefer_foreach"
+        },
+        {
+            "name": "prefer_function_declarations_over_variables"
+        },
+        {
+            "name": "prefer_generic_function_type_aliases"
+        },
+        {
+            "name": "prefer_initializing_formals"
+        },
+        {
+            "name": "prefer_interpolation_to_compose_strings"
+        },
+        {
+            "name": "prefer_is_empty"
+        },
+        {
+            "name": "prefer_is_not_empty"
+        },
+        {
+            "name": "prefer_iterable_whereType"
+        },
+        {
+            "name": "prefer_mixin"
+        },
+        {
+            "name": "prefer_single_quotes"
+        },
+        {
+            "name": "prefer_typing_uninitialized_variables"
+        },
+        {
+            "name": "prefer_void_to_null"
+        },
+        {
+            "name": "public_member_api_docs"
+        },
+        {
+            "name": "recursive_getters"
+        },
+        {
+            "name": "slash_for_doc_comments"
+        },
+        {
+            "name": "sort_constructors_first"
+        },
+        {
+            "name": "sort_pub_dependencies"
+        },
+        {
+            "name": "sort_unnamed_constructors_first"
+        },
+        {
+            "name": "super_goes_last"
+        },
+        {
+            "name": "test_types_in_equals"
+        },
+        {
+            "name": "throw_in_finally"
+        },
+        {
+            "name": "type_annotate_public_apis"
+        },
+        {
+            "name": "type_init_formals"
+        },
+        {
+            "name": "unawaited_futures"
+        },
+        {
+            "name": "unnecessary_brace_in_string_interps"
+        },
+        {
+            "name": "unnecessary_const"
+        },
+        {
+            "name": "unnecessary_getters_setters"
+        },
+        {
+            "name": "unnecessary_lambdas"
+        },
+        {
+            "name": "unnecessary_new"
+        },
+        {
+            "name": "unnecessary_null_aware_assignments"
+        },
+        {
+            "name": "unnecessary_null_in_if_null_operators"
+        },
+        {
+            "name": "unnecessary_overrides"
+        },
+        {
+            "name": "unnecessary_parenthesis"
+        },
+        {
+            "name": "unnecessary_statements"
+        },
+        {
+            "name": "unnecessary_this"
+        },
+        {
+            "name": "unrelated_type_equality_checks"
+        },
+        {
+            "name": "use_rethrow_when_possible"
+        },
+        {
+            "name": "use_setters_to_change_properties"
+        },
+        {
+            "name": "use_string_buffers"
+        },
+        {
+            "name": "use_to_and_as_if_applicable"
+        },
+        {
+            "name": "valid_regexps"
+        },
+        {
+            "name": "void_checks"
+        }
+    ]
+}
