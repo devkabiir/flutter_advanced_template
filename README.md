@@ -7,7 +7,13 @@
 
 ## About
 
-An opinionated flutter template for scaffolding apps
+An opinionated flutter template for scaffolding apps.
+
+**Notice:** This is a personal project, it has limitaions, flutter does not officially support custom templates yet. This is unstable and requries my forked version of flutter.
+
+Use at your own risk!
+Use `git clone -b custom_template https://github.com/devkabiir/flutter` my forked version tracks
+the master branch from upstream
 
 ## Usage
 
