@@ -8,5 +8,37 @@
             "// found in the LICENSE file.",
         ],
         "description": "adds GPL license header"
+    },
+    "Ignore lint": {
+        "scope": "dart",
+        "prefix": "ignore",
+        "body": [
+            "// ignore: ${1| {{#linter_rules}},{{name}}{{/linter_rules}}|}",
+        ],
+        "description": "adds a comment to ignore lint rule for next line"
+    },
+    "Ignore lint from clipboard": {
+        "scope": "dart",
+        "prefix": "ignore-paste",
+        "body": [
+            "// ignore: $CLIPBOARD",
+        ],
+        "description": "adds a comment to ignore lint rule for next line from clipboard"
+    },
+    "Linter Rules": {
+        "scope": "yaml",
+        "prefix": "add-rule",
+        "body": [
+            "- ${1| {{#linter_rules}},{{name}}{{/linter_rules}}|}",
+        ],
+        "description": "adds a linter rule"
+    },
+    "Linter Rule with level": {
+        "scope": "yaml",
+        "prefix": "add-rule-level",
+        "body": [
+            "${1| {{#linter_rules}},{{name}}{{/linter_rules}}|} : ${2|ignore,warning,error|}",
+        ],
+        "description": "adds a linter rule with reporting level"
     }
 }
