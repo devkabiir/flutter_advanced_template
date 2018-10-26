@@ -22,31 +22,34 @@ void main() {
 {{/withDriverTest}}
   runApp(
   {{^withPluginHook}}
-      {{pluginDartClass}}App(),
+    {{pluginDartClass}}App(),
   {{/withPluginHook}}
   {{#withPluginHook}}
-      MyApp(),
+    MyApp(),
   {{/withPluginHook}}
   );
 }
 
+/// {{description}}
 {{^withPluginHook}}
 class {{pluginDartClass}}App extends StatelessWidget {
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: '{{pluginDartClass}}App Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: {{pluginDartClass}}AppHomePage(title: '{{pluginDartClass}}App Home Page'),
-    );
-  }
+  Widget build(BuildContext context) => MaterialApp(
+        title: '{{pluginDartClass}}App Demo',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: const {{pluginDartClass}}AppHomePage(title: '{{pluginDartClass}}App Home Page'),
+      );
 }
 
+/// The very first screen shown to end users
 class {{pluginDartClass}}AppHomePage extends StatefulWidget {
+  /// A basic screen with `AppBar` and a `FAB`
+  const {{pluginDartClass}}AppHomePage({Key key, this.title}) : super(key: key);
+
+  /// Text that appears in the appbar
   final String title;
-  {{pluginDartClass}}AppHomePage({Key key, this.title}) : super(key: key);
 
   @override
   _{{pluginDartClass}}AppHomePageState createState() => _{{pluginDartClass}}AppHomePageState();
@@ -62,32 +65,30 @@ class _{{pluginDartClass}}AppHomePageState extends State<{{pluginDartClass}}AppH
   }
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.display1,
-            ),
-          ],
+  Widget build(BuildContext context) => Scaffold(
+        appBar: AppBar(
+          title: Text(widget.title),
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ),
-    );
-  }
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              const Text(
+                'You have pushed the button this many times:',
+              ),
+              Text(
+                '$_counter',
+                style: Theme.of(context).textTheme.display1,
+              ),
+            ],
+          ),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: _incrementCounter,
+          tooltip: 'Increment',
+          child: const Icon(Icons.add),
+        ),
+      );
 }
 {{/withPluginHook}}
 {{#withPluginHook}}
