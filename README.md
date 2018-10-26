@@ -9,7 +9,7 @@
 
 An opinionated flutter template for scaffolding apps.
 
-**Notice:** This is a personal project, it has limitaions, flutter does not officially support custom templates yet. This is unstable and requries my forked version of flutter.
+**Notice:** This is a personal project, it has limitations, flutter does not officially support custom templates yet. This is unstable and requires my forked version of flutter.
 
 Use at your own risk!
 Use `git clone -b custom_template https://github.com/devkabiir/flutter` my forked version tracks
@@ -22,10 +22,10 @@ the master branch from upstream
 - [x] Snippets for ignoring linter rules inline (vscode)
 - [x] `.editorconfig` with sane rules
 - [x] Snippet for adding LICENSE header (vscode)
-- [x] Prepopulated `README` with common badges, instructions, and sectios.
+- [x] Prepopulated `README` with common badges, instructions, and sections.
 - [x] `.travis.yml` for automated testing
 - [x] All linter rules enabled by default in `analysis_options.yaml`
-- [x] Oppinonated report levels for certatin linter rules
+- [x] Opinionated report levels for certain linter rules
 - [x] Github Issues templates (bug_report and feature_request)
 - [x] Commitizen config with [cz-emoji](https://github.com/ngryman/cz-emoji) preconfigured
 - [ ] Github Code of Conduct template
@@ -33,7 +33,7 @@ the master branch from upstream
 - [ ] Automated builds for iOS
 - [x] Support for `context.json` for adding custom variables to the template
 - [ ] Sample themes (default and dark themes)
-- [ ] Helper utilities (like for routing, managing keys, state management, etc)
+- [ ] Helper utilities (like for routing, managing keys, state management, etc.)
 - [ ] Changed default app to a To-Do app
 - [ ] Follows best practices from flutter cookbook
 - [ ] More...
