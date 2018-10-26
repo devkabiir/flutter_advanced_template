@@ -1,5 +1,8 @@
 {
-    "linter_rules": [
+    "author_name"        : "Dinesh Ahuja",
+    "author_display_name": "devkabiir",
+    "author_email"       : "dev@kabiir.me",
+    "linter_rules"       : [
         {
             "name": "always_declare_return_types"
         },
