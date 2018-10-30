@@ -40,5 +40,14 @@
       "${1| {{#linter_rules}},{{name}}{{/linter_rules}}|} : ${2|ignore,warning,error|}",
     ],
     "description": "adds a linter rule with reporting level"
+  },
+  "Flutter TODO": {
+    "scope": "dart",
+    "prefix": "todo",
+    "body": [
+      "// TODO(${1| {{#authors}},{{display_name}}{{/authors}}|}): $2, https://github.com/{{gh_username}}/{{projectName}}/issues/$3",
+      "$0"
+    ],
+    "description": "adds a flutter style todo comment"
   }
 }
