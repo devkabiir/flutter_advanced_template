@@ -1,9 +1,9 @@
 # {{projectName}}
 
-[![License](https://img.shields.io/github/license/{{ghUsername}}/{{projectName}}.svg)](https://github.com/{{ghUsername}}/{{projectName}}/blob/master/LICENSE)
-[![Travis](https://img.shields.io/travis/com/{{ghUsername}}/{{projectName}}.svg)](https://travis-ci.com/{{ghUsername}}/{{projectName}})
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen--style-emoji-brightgreen.svg)](https://github.com/ngryman/cz-emoji)
+[![License](https://img.shields.io/github/license/{{ghUsername}}/{{projectName}}.svg)][LICENSE]
+[![Travis build](https://img.shields.io/travis/com/{{ghUsername}}/{{projectName}}.svg)][repo]
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)][commitizen]
+[![Commitizen style](https://img.shields.io/badge/commitizen--style-emoji-brightgreen.svg)][cz-emoji]
 
 [![Flutter channel](https://img.shields.io/badge/flutter--channel-{{flutterChannel}}-blue.svg)](https://github.com/flutter/flutter/tree/{{flutterChannel}})
 
@@ -39,8 +39,8 @@ For help getting started with Flutter, view it's online
 
 ## Git
 
-- :white_check_mark: Sign all commits. [Learn more](https://help.github.com/articles/signing-commits/)
-- Use [commitizen](http://commitizen.github.io/cz-cli/) with [emoji](https://github.com/ngryman/cz-emoji) adapter
+- :white_check_mark: Sign all commits. Learn about [signing-commits]
+- Use [commitizen] with [cz-emoji] adapter
 - Check existing commits to get an idea
 - Run the pre_commit script from project root `dart bin\pre_commit.dart`
 - If you're adding an `and` in your commit message, it should probably be separate commits
@@ -51,7 +51,7 @@ For help getting started with Flutter, view it's online
 ## Code style
 
 - Maintain consistencies using included `.editorconfig`
-- Everything else as per standard dart [guidelines](https://www.dartlang.org/guides/language/effective-dart/style)
+- Everything else as per standard dart [guidelines]
 
 ## Testing
 
@@ -66,4 +66,11 @@ it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
-Please see the LICENSE file in this repository for the full text
+Please see the [LICENSE] file in this repository for the full text
+
+[repo]: https://github.com/{{ghUsername}}/{{projectName}}
+[guidelines]: https://www.dartlang.org/guides/language/effective-dart/style
+[commitizen]: http://commitizen.github.io/cz-cli/
+[cz-emoji]: https://github.com/ngryman/cz-emoji
+[signing-commits]: https://help.github.com/articles/signing-commits/
+[LICENSE]: https://github.com/{{ghUsername}}/{{projectName}}/blob/master/LICENSE
