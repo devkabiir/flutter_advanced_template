@@ -1,15 +1,15 @@
 {
   "authors": [
     {
-      "name"        : "Dinesh Ahuja",
-      "display_name": "devkabiir",
-      "email"       : "dev@kabiir.me"
+      "name"       : "Dinesh Ahuja",
+      "displayName": "devkabiir",
+      "email"      : "dev@kabiir.me"
     }
   ],
   "// This is used for generating github urls"     : "",
-  "gh_username"                                    : "devkabiir",
+  "ghUsername"                                     : "devkabiir",
   "// <-- STOP HERE DO NOT EDIT ANYTHING BELOW -->": "",
-  "linter_rules"                                   : [
+  "linterRules"                                    : [
     {
       "name": "always_declare_return_types"
     },

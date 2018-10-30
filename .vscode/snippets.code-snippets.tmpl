@@ -13,7 +13,7 @@
     "scope": "dart",
     "prefix": "ignore",
     "body": [
-      "// ignore: ${1| {{#linter_rules}},{{name}}{{/linter_rules}}|}",
+      "// ignore: ${1| {{#linterRules}},{{name}}{{/linterRules}}|}",
     ],
     "description": "adds a comment to ignore lint rule for next line"
   },
@@ -29,7 +29,7 @@
     "scope": "yaml",
     "prefix": "add-rule",
     "body": [
-      "- ${1| {{#linter_rules}},{{name}}{{/linter_rules}}|}",
+      "- ${1| {{#linterRules}},{{name}}{{/linterRules}}|}",
     ],
     "description": "adds a linter rule"
   },
@@ -37,7 +37,7 @@
     "scope": "yaml",
     "prefix": "add-rule-level",
     "body": [
-      "${1| {{#linter_rules}},{{name}}{{/linter_rules}}|} : ${2|ignore,warning,error|}",
+      "${1| {{#linterRules}},{{name}}{{/linterRules}}|} : ${2|ignore,warning,error|}",
     ],
     "description": "adds a linter rule with reporting level"
   },
@@ -45,7 +45,7 @@
     "scope": "dart",
     "prefix": "todo",
     "body": [
-      "// TODO(${1| {{#authors}},{{display_name}}{{/authors}}|}): $2, https://github.com/{{gh_username}}/{{projectName}}/issues/$3",
+      "// TODO(${1| {{#authors}},{{displayName}}{{/authors}}|}): $2, https://github.com/{{ghUsername}}/{{projectName}}/issues/$3",
       "$0"
     ],
     "description": "adds a flutter style todo comment"
