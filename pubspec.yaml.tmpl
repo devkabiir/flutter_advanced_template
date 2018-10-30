@@ -1,7 +1,10 @@
 name: {{projectName}}
 description: {{description}}
-author: {{author_display_name}} <{{author_email}}>
-homepage: https://github.com/{{author_display_name}}/{{projectName}}
+authors:
+{{#authors}}
+- {{display_name}} <{{email}}>
+{{/authors}}
+homepage: https://github.com/{{gh_username}}/{{projectName}}
 documentations:
 
 # Both the version and the builder number may be overridden in flutter
