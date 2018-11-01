@@ -38,6 +38,7 @@ final Map<String, List<String>> cmds = {
   ],
   'dartanalyzer': [
     '--fatal-warnings',
+    '--fatal-lints',
     '$projectRoot${Platform.pathSeparator}lib',
     '$projectRoot${Platform.pathSeparator}test'
   ],
